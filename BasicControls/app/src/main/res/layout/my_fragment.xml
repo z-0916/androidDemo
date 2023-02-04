@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:ItemView="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="30dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="#12b7f5"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"/>
+    </LinearLayout>
+
+    <com.example.basiccontrols.customcontrols.ScrollChangeView
+        android:id="@+id/scv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.example.basiccontrols.customcontrols.ScrollChangeView>
+
+    <com.example.basiccontrols.customcontrols.ItemView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ItemView:leftText="简历"
+        ItemView:showArrow="true"/>
+    <com.example.basiccontrols.customcontrols.ItemView
+        android:id="@+id/iv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ItemView:leftText="师兄师姐去哪了"
+        ItemView:showArrow="true"/>
+    <com.example.basiccontrols.customcontrols.ItemView
+        android:id="@+id/iv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ItemView:leftText="设置"
+        ItemView:showArrow="false"/>
+</LinearLayout>

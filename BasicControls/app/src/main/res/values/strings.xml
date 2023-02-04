@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BasicControls</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tv_home">home的碎片</string>
+    <string name="tv_my">my的碎片</string>
+    <string name="tv_message">message的碎片</string>
+    <string name="bt_add_fragment">增加fragment</string>
+    <string name="bt_replace_fragment">替换fragment</string>
+    <string name="bt_remove_fragment">移除fragment</string>
+    <string name="tv_first">FIRST</string>
+    <string name="tv_second">SECOND</string>
+
+    <string name="tab_menu_home">首页</string>
+    <string name="tab_menu_message">信息</string>
+    <string name="tab_menu_my">我的</string>
+
+</resources>
